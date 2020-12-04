@@ -1,0 +1,12 @@
+# Este programa sorteia brindes(camisetas) para jogo festa de futebol  PRETOXBRANCO.
+
+print(choice(sorteio))
+
+from random import choice
+
+sorteio = ['MICHEL', 'MARCOS BOTELHO', 'BI', 'FRANÇA', 'OSMAR NAVARRO','JONH JONH\n',
+           'PERERECA', 'JONAS', 'FERNANDINHO', 'RODRIGO LINS', 'STIVE','RAFAEL', 'PELUDO\n',
+           'DHIGÃO', 'DANILO', 'CLOBERT', 'DEDE BRANCO','WILIAN', 'BRAVO', 'LUIZ\n',
+           'PEPEU', 'DARIO', 'JE', 'DEDE PRETO', 'DINHO','DERE','SAMER', 'JULIÃO']          
+
+print(choice(sorteio))
