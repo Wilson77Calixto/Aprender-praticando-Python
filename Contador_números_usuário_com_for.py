@@ -6,8 +6,8 @@ num2 = int(input('Digite o valor final: '))
 soma = 0
 
 for i in range (num1,num2 + 1):
-    if num1 % num2 == 0:
-        soma += 1
+    if i % num2 == 0:
+        soma = soma + i
     
 print('A soma é', soma)
     
